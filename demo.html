@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Location Picker</title>
+ <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=[your_api_key]&libraries=geometry"></script>
+<script type="text/javascript" src="location_picker.js"></script>
+<noscript>
+      <div style="border: 1px solid purple; padding: 10px">
+        <span style="color:red">JavaScript is not enabled!<br><br> This page will not work without Javascript </span>
+      </div>
+</noscript>
+</head>
+<body>
+ 
+<center>
+Location Details: <input type="text"  name="lat" id="location_name"  />
+Latitude: <input type="text" name="lat" id="location_lat" />
+Longitude: <input type="text" name="long" id="location_long"/>
+<div id="map-canvas"></div>
+<br/>
+<b>Drag the marker to Get Location Details</b>
+<br/><br/>
+Note: Check errors on console if any.
+</center>
+
+</body>
+</html>
