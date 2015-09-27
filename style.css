@@ -1,0 +1,26 @@
+ /*
+Author: Shubham S Takode
+Website: shubhsblog.com
+*/
+
+#map-canvas {
+       
+		margin:10px; 
+		border-style: solid; 
+		border-width: 3px; 
+		border-color: aquamarine; 
+		position:relative; 
+		width:300px;
+		height:270px;		
+      }
+#panel {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        margin-left: -180px;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+      }
+	  
